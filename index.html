@@ -43,16 +43,21 @@
     white-space: nowrap;
   }
 
-  .invisivel {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    margin-left: 12px;
-    color: transparent;              /* invisível real */
-    text-shadow: 0 0 0 black;        /* só aparece ao selecionar */
-    user-select: text;
-    white-space: nowrap;
-  }
+ .invisivel {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: 12px;
+  color: transparent;
+  text-shadow: 0 0 0 black;
+  user-select: text;
+  white-space: nowrap;
+
+  /* força igual ao texto principal */
+  font-size: 28px;
+  letter-spacing: 2.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 </style>
 </head>
 
