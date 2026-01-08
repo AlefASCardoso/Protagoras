@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>HamletARL</title>
+
+<!-- 1. 14:56 -->
+<!-- 2. 14:38 -->
+
+<style>
+  body {
+    margin: 0;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container {
+    text-align: center;
+    transform: translateY(-60px);
+  }
+
+  img {
+    width: 380px;
+    max-width: 95vw;
+    display: block;
+    margin: 0 auto 22px;
+  }
+
+  .texto {
+    letter-spacing: 2.5px;
+    font-size: 28px;
+    opacity: 0.85;
+    display: inline-block;
+    position: relative;
+  }
+
+  .invisivel {
+    color: #000000;        /* PRETO REAL */
+    position: absolute;
+    left: 50%;
+    transform: translateX(130px); /* empurra pra fora do centro */
+    user-select: text;
+    white-space: nowrap;
+  }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="Sêneca.png">
+    <div class="texto">
+      Tenha cuidado com
+      <span class="invisivel">quem?</span>
+    </div>
+  </div>
+</body>
+</html>
